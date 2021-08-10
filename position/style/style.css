@@ -47,6 +47,29 @@ header#header {
 
 /* main#main start */
 
+/* position layout start */
+main#main {
+    position: relative;
+}
+#main nav#gnb {
+    width: 160px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+div#contents {
+    width: 354px;
+    margin-left: 160px;
+}
+aside#notice {
+    width: 160px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 4px;
+}
+/* position layout end */
+
 /* nav#gnb */
 #main nav#gnb h3 {
     color: #fff;
@@ -94,7 +117,7 @@ aside#notice h2 span {
 aside#notice h2 span:first-child {
     color: #82877d;
 }
-aside#notice h2 span:nth-child(2) {
+aside#notice h2 span:nth-child(3) {
     color: #d39842;
 }
 #notice div.schedule {
