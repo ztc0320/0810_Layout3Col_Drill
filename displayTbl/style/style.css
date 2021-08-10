@@ -46,7 +46,28 @@ header#header {
 /* header#header end */
 
 /* main#main start */
-
+/* display : table */
+main#main {
+    display: table;
+}
+#main div.tblRow {
+    display: table-row;
+}
+#main .tblCell {
+    vertical-align: top;
+    display: table-cell;
+}
+#main nav#gnb {
+    width: 160px;
+}
+#main #contents {
+    width: 354px;
+}
+aside#notice {
+    width: 161px;
+    padding: 4px;
+}
+/* display : table end */
 /* nav#gnb */
 #main nav#gnb h3 {
     color: #fff;
