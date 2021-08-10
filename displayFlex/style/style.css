@@ -13,6 +13,9 @@ ul {
 a {
     color: #000;
 }
+.flexContainer {
+    display: flex;
+}
 /* reset */
 
 /* div#wrap start */
@@ -46,6 +49,20 @@ header#header {
 /* header#header end */
 
 /* main#main start */
+
+/* display : flex */
+nav#gnb {
+    width: 160px;
+}
+div#contents {
+    /* width: 354px; */
+    flex: 1;
+}
+aside#notice {
+    width: 160px;
+    padding: 4px;
+}
+/* display : flex end */
 
 /* nav#gnb */
 #main nav#gnb h3 {
